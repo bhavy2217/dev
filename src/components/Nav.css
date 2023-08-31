@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserrat;
+}
+nav {
+    background: black;
+    height: 65px;
+    width: 100%;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 65px;
+    padding: 0px 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 410px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 65px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.nav-btn:hover {
+    color: yellow;
+    transition: .1s;
+}
+
+.login-icon {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: -22px;
+    position: fixed;
+    line-height: 10px;
+    right: 35px;
+}
+
+.login-icon:hover {
+    color: grey;
+    border: 1px solid yellow;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 49px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+}
+
+.imgbar {
+    height: 33px;
+    margin-top: 17px;
+    width: 35px;
+    filter : invert(100%);
+}
+
+#check {
+    display: none;
+}
+
+.div {
+    border: 2px solid red;
+    height: 1000px;
+    width: 100%;
+}
+
+@media (max-width : 1130px) {
+    nav ul {
+        margin-right: 310px;
+    }
+}
+
+@media (max-width : 1000px) {
+    nav ul {
+        margin-right: 250px;
+    }
+}
+
+@media (max-width : 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width : 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 75vh;
+        background: #3e648a;
+        top: 66px;
+        left: -100%;
+        transition: all .4s;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 45px 0;
+        line-height: 24px;
+    }
+    .login-icon {
+        margin-top: -377px;
+        right: 37px;
+        position: fixed;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}

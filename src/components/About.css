@@ -1,0 +1,65 @@
+.aus-Content {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(232, 232, 232);
+}
+
+.left-block {
+    display: flex;    
+    flex-direction: column;
+    width: 30%;
+    padding-left: 50px;
+}
+
+
+.left-about {
+    
+}
+
+.left-about h4 {
+    
+}
+
+.left-about li {
+    
+}
+.left-about li a{
+    
+}
+
+.left-contact {
+    
+}
+
+.left-contact h4 {
+    
+}
+
+.left-contact ul li {
+}
+
+.left-contact li a{
+}
+.vertical {
+    height: 500px;
+    width: 0px;
+    border: 1px solid grey;
+}
+
+.description {
+    /* border: 1px solid blueviolet; */
+    width: 60%;
+    padding: 50px 50px;
+}
+
+.description h2 {
+}
+
+.description p {
+}
+
+

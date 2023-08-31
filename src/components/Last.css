@@ -1,0 +1,123 @@
+
+.last-block {
+    border: 1px solid palegreen;
+    /* padding: 100px 100px; */
+    margin-top: 20px;
+    padding-bottom: 35px;
+    background-color: black;
+    color: white;
+    margin-bottom:0px;
+    /* display: inline-block; */
+}
+
+.all {
+    /* border: 1px solid rgb(0, 255, 0); */
+    /* padding: 0px 55px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 93px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-us {
+    /* border: 1px solid red; */
+    padding: 15px 20px;
+    display: inline-block;
+    margin-right: 30px;
+    color: rgb(202, 202, 202);
+}
+
+.about-us ul {
+    padding-left: 15px;
+}
+
+.about-us li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.contact-us {
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    padding: 15px 20px;
+    color: rgb(202, 202, 202);
+}
+
+.contact-us ul {
+    padding-left: 15px;
+}
+
+.contact-us li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.connect-with-us {
+    /* border: 1px solid orchid; */
+    display: inline-block;
+    /* display: flex; */
+    padding: 0px 0px;
+    justify-content: center;
+    /* margin-left: 300px; */
+    margin-top: 30px;
+    padding-bottom: 31px;
+}
+
+.connect-with-us h4 {
+    margin-top: 0px;
+    margin-bottom: -9px;
+}
+
+.connect-with-us ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.connect-with-us li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+/* .CWUimage{
+    margin-bottom: 0px;
+} */
+.Metalogo {
+    width: 65px;
+}
+
+.Llogo {
+    width: 45px;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    display: flex;
+    /* margin-left: 500px; */
+    justify-content: center;
+}
+.copyright p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.goto-up a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.goto-up {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+.goto-up-img{
+    float: right;
+    width: 50px;
+}
