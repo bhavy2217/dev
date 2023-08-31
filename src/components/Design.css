@@ -1,0 +1,132 @@
+
+/* Mid Text Start */
+
+.flexx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.para {
+    font-size: large;
+    font-style: inherit;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+/* Mid Text End */
+
+/* Row-1 of t-shirt Start */
+.row1 {
+    /*border: 2px solid black;*/
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* Row-2 of t-shirt Start */
+.row2 {
+    /* border: 2px solid black; */
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* Row-3 of t-shirt Start */
+.row3 {
+    /* border: 2px solid black; */
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* Row-4 of t-shirt Start */
+.row4 {
+    /* border: 2px solid black; */
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* Row-5 of t-shirt Start */
+.row5 {
+    /* border: 2px solid black; */
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* Row-6 of t-shirt Start */
+.row6 {
+    /* border: 2px solid black; */
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+}
+
+/* It consist of one Row of 4 Boxes */
+.inrow {
+    /* border: 4px solid rgb(0, 0, 0); */
+    height: 420px;
+    margin-top: 0px;
+    /* background-color: rgb(164, 164, 164); */
+    /* border-style: dotted; */
+    display: flex;
+}
+
+/* Box of all Rows */
+.box {
+    display: inline-block;
+    /* border: 1px solid grey; */
+    margin: 25px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px -5px black;
+        /* background-image: radial-gradient(circle, rgb(242, 143, 143), rgb(255, 255, 145), rgb(129, 231, 129)); */
+        background-image: linear-gradient(rgb(255, 201, 201),rgb(203, 203, 255));
+}
+
+/* Each Box Image  */
+.box img {
+    height: 250px;
+    /*border: 1px solid black;*/
+    padding: 24px 25px;
+    /* box-shadow: 0px 0px 20px 0px rgb(153, 153, 153); */
+    /* box-shadow: 1px 1px 10px -5px black; */
+}
+
+/* T-shirt detail under its image */
+.product-feature {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* T-shirt Name under its image */
+.Tshirt-name {
+    /*border: 1px solid red;*/
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    margin-top: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* T-shirt Price under its image */
+.detail {
+    padding: 0px 10px;
+    margin-top: 0px;
+    display: block;
+    font-size: 16px;
+    /* border:1px solid blue; */
+}
+
+.hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
